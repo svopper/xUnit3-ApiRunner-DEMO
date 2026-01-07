@@ -27,7 +27,7 @@ Tests can be run directly from your IDE using built-in test runners:
 
 ### 3. Using the `/run-tests` API Endpoint
 
-Start the API application and trigger tests via HTTP:
+Start the API application and trigger tests via HTTP (from the project root directory):
 
 ```bash
 # Start the application
