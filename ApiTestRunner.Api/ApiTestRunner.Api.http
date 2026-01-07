@@ -4,3 +4,10 @@ POST http://localhost:5185/run-tests/
 Accept: application/json
 
 ###
+
+GET http://localhost:5185/test-status/5a0328cc-ec9e-41d0-8fd0-2616401e957e
+Accept: application/json
+
+###
+
+POST http://localhost:5185/cancel-test/92206160-c551-4032-b1d8-712086e7351f

@@ -4,28 +4,9 @@ This is a demo project that demonstrates how to trigger xUnit 3 tests using an A
 
 ## Overview
 
-This project showcases a web API application that can execute xUnit 3 tests programmatically. It combines an ASP.NET Core Web API with xUnit 3 test infrastructure, allowing tests to be run in multiple ways.
+This project showcases a web API application that can execute xUnit 3 tests programmatically via HTTP endpoints. It combines an ASP.NET Core Web API with xUnit 3 test infrastructure, enabling remote test execution.
 
-## Running Tests
-
-This project supports multiple ways to run tests:
-
-### 1. Using `dotnet test`
-
-Run tests using the standard .NET test command:
-
-```bash
-dotnet test
-```
-
-### 2. Using Your IDE
-
-Tests can be run directly from your IDE using built-in test runners:
-- **Visual Studio**: Use the Test Explorer
-- **Visual Studio Code**: Use the .NET Test Explorer extension
-- **JetBrains Rider**: Use the built-in test runner
-
-### 3. Using the `/run-tests` API Endpoint
+## Running Tests via API
 
 Start the API application and trigger tests via HTTP (from the project root directory):
 

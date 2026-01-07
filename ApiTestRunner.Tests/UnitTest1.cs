@@ -25,6 +25,14 @@ public class UnitTest1
         
         Assert.Equal("case_001", data?.Key);
     }
+    
+    [Fact]
+    public async Task LongRunningTest_ShouldSucceed()
+    {
+        // Simulate a long-running test
+        await Task.Delay(5000, CancellationToken.None);
+        Assert.True(true);
+    }
 }
 
 record UseCase(string Key);
